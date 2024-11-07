@@ -10,7 +10,7 @@ export default function App() {
       <Text style={{ color: "white" }}>This is foreign out of you budget</Text>
       </ImageBackground> */}
       {/* <ScrollViewC /> */}
-        <Button title='Button' />
+        <Button title='Button' color={'darkslategrey'} onPress={() => console.log("button pressed")} disabled={true}/>
     </View>
   )
 }
