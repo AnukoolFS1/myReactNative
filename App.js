@@ -1,5 +1,6 @@
 import { View, Text, Image, ImageBackground, Button } from 'react-native'
 import ScrollViewC from './ScrollVeiw'
+import CButton from './Button'
 export default function App() {
   return (
 
@@ -10,7 +11,7 @@ export default function App() {
       <Text style={{ color: "white" }}>This is foreign out of you budget</Text>
       </ImageBackground> */}
       {/* <ScrollViewC /> */}
-        <Button title='Button' color={'darkslategrey'} onPress={() => console.log("button pressed")} disabled={true}/>
+      <CButton />
     </View>
   )
 }
