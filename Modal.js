@@ -9,6 +9,8 @@ function Modals() {
             <Button title='Press' color={"blue"} onPress={() => setModalView(true)}  />
             <Modal
              visible={modalView}
+             animationType='slide'
+             presentationStyle='formSheet'
              >
                 <View style={{backgroundColor:"lightblue"}}>
                     <Text style={{color:"white"}}>Modal Component</Text>
