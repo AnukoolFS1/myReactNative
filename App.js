@@ -2,6 +2,7 @@ import { View, Text, Image, ImageBackground, Button } from 'react-native'
 import ScrollViewC from './ScrollVeiw'
 import Pressables from './Pressables'
 import CButton from './Button'
+import Modals from './Modal'
 export default function App() {
   return (
 
@@ -14,6 +15,7 @@ export default function App() {
       {/* <ScrollViewC /> */}
       <CButton />
       <Pressables />
+      <Modals />
     </View>
   )
 }
