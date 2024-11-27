@@ -5,7 +5,6 @@ const Pressive = () => {
     return (
         <>
             <Button title="button"
-                style={{ backgroundColor: 'cornflowerblue' }}
                 color={'lime'}
                 // disabled={true}
                 onPress={() => console.log('hello user')} />
