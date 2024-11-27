@@ -2,8 +2,8 @@ import { Text } from "react-native";
 const Writing = () => {
 
     return (
-        <Text>
-            This is a text component
+        <Text style={{color:"blue"}}>
+            This is a  <Text style={{color:"lime"}}>{"<"}Text{" />"}</Text>Component
         </Text>
     )
 }
