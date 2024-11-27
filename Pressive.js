@@ -1,10 +1,14 @@
-import { Button } from "react-native";
+import { Button, ImageBackground } from "react-native";
 
 const Pressive = () => {
 
     return (
         <>
-        <Button title="button" onPress={()=>console.log('hello user')} />
+            <Button title="button"
+                style={{ backgroundColor: 'cornflowerblue' }}
+                color={'lime'}
+                // disabled={true}
+                onPress={() => console.log('hello user')} />
         </>
     )
 }
