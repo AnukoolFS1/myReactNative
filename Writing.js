@@ -3,7 +3,7 @@ const Writing = () => {
 
     return (
         <Text style={{color:"blue"}}>
-            This is a  <Text style={{color:"lime"}}>{"<"}Text{" />"}</Text>Component
+            This is a  <Text style={{color:"lime"}}>{"<"}Text{" />"}</Text> Component
         </Text>
     )
 }
