@@ -10,7 +10,7 @@ function Modals() {
             <Modal
              visible={modalView}
              animationType='slide'
-             presentationStyle='formSheet'
+            //  presentationStyle='formSheet' only works for iOS not for android users!
              >
                 <View style={{backgroundColor:"lightblue"}}>
                     <Text style={{color:"white"}}>Modal Component</Text>
