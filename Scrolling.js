@@ -4,8 +4,8 @@ export default function Scrolling() {
 
     return (
         <ScrollView style={{backgroundColor:"blue"}}>
-            <Text style={{ color:"white"}}>
-                A paragraph is a group of sentences that support a single idea or topic. Paragraphs are a fundamental part of writing, and are used in most pieces of writing that are longer than a few sentences. They help the reader understand the organization of the writing and grasp its main points.
+            <Text style={{ color:"white", padding: 20, textAlign:"right"}}>
+                A paragraph is a group of sentences that support a <Text style={{color:"lime", backgroundColor:"red", fontSize:16}}>Text inside Text</Text> single idea or topic. Paragraphs are a fundamental part of writing, and are used in most pieces of writing that are longer than a few sentences. They help the reader understand the organization of the writing and grasp its main points.
                 Here are some characteristics of a well-written paragraph:
                 Topic sentence: The paragraph begins with a topic sentence that introduces the main idea
                 Supporting sentences: The remaining sentences in the paragraph support the main idea
@@ -77,7 +77,6 @@ export default function Scrolling() {
                 Narrations
                 Comparisons and contrasts
                 Classifications
-                Causes and effects
             </Text>
         </ScrollView>
     )
