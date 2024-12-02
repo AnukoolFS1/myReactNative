@@ -3,6 +3,7 @@ import Writing from './Writing';
 import Picture from './Picture';
 import Pressive from './Pressive';
 import Scrolling from './Scrolling';
+import Modals from './Modals';
 
 export default function App() {
   return (
@@ -13,10 +14,11 @@ export default function App() {
       <Pressable onLongPress={() => console.log('picture has long pressed')}>
         <Picture />
       </Pressable>
-      <Pressable onPressOut={() => console.log('scrolling was pressed out')}>
+      {/* <Pressable onPressOut={() => console.log('scrolling was pressed out')}>
         <Scrolling />
-      </Pressable>
-      <Pressive />
+      </Pressable> */}
+      {/* <Pressive /> */}
+      <Modals ></Modals>
     </View>
   )
 }
