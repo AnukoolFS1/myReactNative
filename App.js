@@ -17,7 +17,7 @@ export default function App() {
       {/* <Pressable onPressOut={() => console.log('scrolling was pressed out')}>
         <Scrolling />
       </Pressable> */}
-      {/* <Pressive /> */}
+      <Pressive />
       <Modals ></Modals>
     </View>
   )

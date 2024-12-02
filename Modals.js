@@ -7,7 +7,8 @@ export default function Modals() {
     return (
         <View>
             <Button title="Modal" onPress={() => setModalView(true)} />
-            <Modal visible={modalView} animationType="fade" onRequestClose={()=>setModalView(false)}>
+            <Modal visible={modalView} animationType="fade" onRequestClose={()=>setModalView(false)}
+                presentationStyle="formSheet">
                 <View>
                     <Text>
                         This is a Modal
