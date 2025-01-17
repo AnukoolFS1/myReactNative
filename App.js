@@ -19,7 +19,7 @@ export default function App() {
       </Pressable> 
       <Pressive />
       <Modals ></Modals> */}
-      <StatusBar backgroundColor={"lime"} barStyle={"dark-content"}  />
+      <StatusBar backgroundColor={"lime"} barStyle={"dark-content"} hidden={false}  />
     </View>
   )
 }
